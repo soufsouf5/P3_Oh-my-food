@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <link href="css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/320faf0317.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,29 +25,27 @@
                 <br>
                 vous convient
             </h2>
-            <p class="main__subtitle">Découvrez des restaurants d'exeception, séléctionnés par nos soins</p>
+            <p class="main__subtitle">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
             <a class="main__btn">Explorer nos restaurants</a>
         </section>
-        <h2>Fonctionnement</h2>
-        <section class="button">
-            <form class="search-form" method="post">
-                <button>
-                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                    <input id="search" type="text" value="Choisissez un restarurant"/>
-                </button>
-            </form>
-            <form class="search-form" method="post">
-                <button>
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                    <input id="search" type="text" value="Composez votre menu"/>
-                </button>
-            </form>
-            <form class="search-form" method="post">
-                <button>
-                    <i class="fa-solid fa-store"></i>
-                    <input id="search" type="text" value="Dégustez un restaurant"/>
-                </button>
-            </form>
+        <section class="second">
+            <div class="container">
+                <h2 class="second__title">Fonctionnement</h2>
+                <ol class="second__lists">
+                    <li class="second__list">
+                        <i class="fa-mobile-alt fas tuto__icon"></i>
+                        <span class="text">Choisissez un restaurant</span>
+                    </li>
+                    <li class="second__list">
+                        <i class="fa-list-ul fas tuto__icon"></i>
+                        <span class="text">Composez votre menu</span>
+                    </li>
+                    <li class="second__list">
+                        <i class="fa-store fas tuto__icon"></i>
+                        <span class="text">Dégustez au restaurant</span>
+                    </li>
+                </ol>
+            </div>
         </section>
         <section id="restaurant">
             <h2>Restaurants</h2>

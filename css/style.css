@@ -1,7 +1,10 @@
 body {
   width: 100%;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: black;
 }
+
 .header__logo {
   font-family: "Shrikhand", cursive;
   margin: 0;
@@ -14,29 +17,30 @@ img {
   display: flex;
   padding: 3% 25%;
   background-color: #f3f3f3;
-  font-size: 18px;
+  font-size: 17px;
   position: relative;
   align-content: center;
   justify-content: space-evenly;
-  font-weight: bold;
+  font-weight: 500;
 }
 .main {
-  padding: 2rem;
+  padding: 8% 1%;
   text-align: center;
   background-color: #fafafa;
+  height: 215px;
 }
 .main__title {
   margin: 0;
 }
 .main__subtitle {
   font-weight: 300;
-  margin: 1.5rem 0;
+  margin: 20px 20px 40px 0px;
 }
 .main__btn {
   border: 0;
-  padding: 0.75rem 1.5rem;
-  font-weight: 500;
-  font-size: 1.1rem;
+  padding: 4% 6%;
+  font-weight: 400;
+  font-size: 16px;
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
@@ -45,8 +49,61 @@ img {
   transition-duration: .25s;
   box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
 }
-
-
+.second {
+  padding: 2rem 1rem;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+.second__list {
+  padding: 1.5rem;
+  margin: 1rem 0 1rem 0.75rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+  border-radius: 1.25rem;
+  background-color: #f6f6f6;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+ol :hover{
+  background: #c8a4f5b0;
+  color: white;
+}
+.second__lists {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: compteListe;
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.second__list:before {
+  counter-increment: compteListe 1;
+  content: counter(compteListe) " ";
+  background: #9356dc;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  left: -0.75rem;
+}
 
 
 
