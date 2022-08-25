@@ -3,29 +3,38 @@
 <head>
     <title>Le délice des sens</title>
     <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/320faf0317.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <i class="fa-solid fa-arrow-left-long"></i>
-        <h1 class="header__logo">ohmyfood</h1>
+    <header class="header header--backArrow">
+        <div class="headerContainer">
+            <a href="/acceuil.html">
+                <i class="fa-solid fa-arrow-left-long header__arrow" ></i>
+            </a>
+            <h1 class="header__logo">ohmyfood</h1>   
+        </div>
     </header>
     <div class="restaurant-image">
-        <img src="/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="restaurant4">
+        <img src="/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt class="restaurant1">
     </div>
     <main class="container menu">
         <header class="menu__header">
             <h2 class="menu__title">Le délice des sens</h2>
             <button class="menu__btn">
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-2x fa-heart far menu__like menu__like--noBg" aria-hidden="true"></i>
+                <i class="fa-2x fa-heart fas menu__like menu__like--bg" aria-hidden="true"></i>
             </button>
         </header>
-        <div class="mainmenu">
+        <div class="mainmenus">
             <section class="mainmenu">
                 <h3 class="mainmenu__title">
-                    Entées
+                    Entrées
                 </h3>
                 <section class="starter1 menuItem">
                     <header class="menuItem__header">
@@ -107,13 +116,21 @@
         <button class="commandBtn">Commander</button>
     </div>
 </main>
-<footer>
-    <div id="logo-Footer">
-        <img src="/images/logo/ohmyfood.png" alt="Logo Ohmyfood">
+<footer class="footer">
+    <div class="container">
+        <span class="footer__logo">ohmyfood</span>
     </div>
-    <p><i class="fa fa-cutlery" aria-hidden="true"></i>Proposer un restaurant</p>
-    <p><i class="fa fa-handshake-angle"></i>Devenir partenaire</p>
-    <p>Mention légales</p>
-    <p>Contact</p>
-</footer>
-</body>
+    <ul class="footer__list">
+        <li class="footer__listElt"> <a class="footer__link" href="#">
+            <i class="fa-utensils fas footer__icon" aria-hidden="true"></i>
+            Proposer un restaurant</a></li>
+            <li class="footer__listElt"> <a class="footer__link" href="#">
+                <i class="fa-hands-helping fas footer__icon" aria-hidden="true"></i>
+                Devenir partenaire</a></li>
+                <li class="footer__listElt"> <a class="footer__link" href="#">
+                    Mentions légales</a></li>
+                    <li class="footer__listElt"> <a class="footer__link" href="mailto:contact@ohmyfood.com">
+                        Contact</a></li>
+                    </footer>
+                </body>
+                </html>
