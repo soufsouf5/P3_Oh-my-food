@@ -337,8 +337,6 @@ h2.restaurants__title {
 .fa, .far, .fas {
   font-family: "Font Awesome 5 Free";
 }
-
-
 .restaurant__badge {
   background-color: #99e2d0;
   color: #1b6150;
@@ -507,31 +505,31 @@ li.footer__listElt {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.starter1 {
+.delay-0 {
   animation-delay: 0s;
 }
-.starter2{
+.delay-1{
   animation-delay: .2s;
 }
-.starter3{
+.delay-2{
   animation-delay: .3s;
 }
-.starter4{
+.delay-3{
   animation-delay: .4s;
 }
-.starter5{
+.delay-4{
   animation-delay: .5s;
 }
-.starter6{
+.delay-5{
   animation-delay: .6s;
 }
-.starter7{
+.delay-6{
   animation-delay: .7s;
 }
-.starter8{
+.delay-7{
   animation-delay: .8s;
 }
-.starter9{
+.delay-8{
   animation-delay: .9s;
 }
 .submenu__title {
@@ -539,6 +537,11 @@ li.footer__listElt {
   position: relative;
   padding-bottom: 0.5rem;
   font-weight: 400;
+}
+.submenu {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 1rem;
 }
 .menuItem {
   background-color: #fff;
@@ -594,6 +597,9 @@ li.footer__listElt {
 }
 .menuItem__icon {
   color: #99e2d0;
+}
+.fa-check:before {
+  content: "\f00c";
 }
 .submenu {
   max-width: 100%;
