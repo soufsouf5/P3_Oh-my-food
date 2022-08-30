@@ -1,26 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-body {
-  width: 100%;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  color: black;
-}
 .loader {
   display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
     position: absolute;
-    height: 85vh;
+    height: 30vh;
     width: 100vw;
     left: 0;
     top: 0; 
-    opacity: 3.5;
+    opacity: 4;
 }
 .lds-default {
   display: inline-block;
@@ -124,8 +112,18 @@ body {
     opacity: 0;
   }  
   }
-
-
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+  }
 .header__logo {
   font-family: "Shrikhand", cursive;
   margin: 0;
@@ -242,6 +240,9 @@ li {
 .restaurant__subtitle {
   margin: 0;
 }
+
+/* boutton like */
+
 .menu__btn {
   height: 2rem;
   width: 2rem;
@@ -254,6 +255,39 @@ li {
   cursor: pointer;
   position: relative;
   background-color: #000;
+  overflow: hidden;
+}
+.menu__btn::before {
+  opacity: 0;
+  transition: all .5s;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 0%;
+  top: 0;
+  bottom: 0%;
+  width: 100%;
+}
+.menu__btn:hover{
+  background: linear-gradient(0deg,#9356dc,#ff79da);
+}
+.card__btn {
+  height: 2rem;
+  width: 2rem;
+  background-color: initial;
+  border: 0 solid transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 .card__like {
   background-color: #fff!important;
@@ -265,12 +299,6 @@ li {
   align-items: center;
   justify-content: center;
   mix-blend-mode: lighten;
-}
-.menu__btn:before {
-  opacity: 0;
-  transition: .5s;
-  content: "";
-  background: linear-gradient(0deg,#9356dc,#ff79da);
 }
 .menu__btn:before, .menu__like {
   position: absolute;
@@ -304,10 +332,13 @@ h2.restaurants__title {
 }
 .fab, .far {
   font-weight: 400;
+  
 }
 .fa, .far, .fas {
   font-family: "Font Awesome 5 Free";
 }
+
+
 .restaurant__badge {
   background-color: #99e2d0;
   color: #1b6150;
