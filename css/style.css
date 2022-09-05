@@ -1192,34 +1192,34 @@ li {
     left: 0;
     bottom: 0;
   }
-  .starter1 {
+  .delay-0{
     animation-delay: 0s;
   }
-  .starter2{
+  .delay-1{
     animation-delay: .2s;
   }
-  .starter3{
+  .delay-2{
     animation-delay: .3s;
   }
-  .starter4{
+  .delay-3{
     animation-delay: .4s;
   }
-  .starter5{
+  .delay-4{
     animation-delay: .5s;
   }
-  .starter6{
+  .delay-5{
     animation-delay: .6s;
   }
-  .starter7{
+  .delay-6{
     animation-delay: .7s;
   }
-  .starter8{
+  .delay-7{
     animation-delay: .8s;
   }
-  .starter9{
+  .delay-8{
     animation-delay: .9s;
   }
-  .submenu__title {
+  .submen3__title {
     text-transform: uppercase;
     position: relative;
     padding-bottom: 0.5rem;
