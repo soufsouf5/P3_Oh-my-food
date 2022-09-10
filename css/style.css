@@ -602,6 +602,9 @@ li.footer__listElt {
 .menuItem:hover .menuItem__confirmation {
   margin-right: -1rem;
 }
+.menuItem:hover .menuItem__wrapIcon {
+  transform: rotate(0);
+}
 .menuItem__wrapIcon {
   height: 1.6rem;
   width: 1.6rem;
@@ -610,7 +613,7 @@ li.footer__listElt {
   align-items: center;
   justify-content: center;
   border-radius: 100px;
-  transform: rotate(0deg);
+  transform: rotate(180deg);
   transition-duration: .5s;
 }
 .menuItem__icon {
@@ -1281,6 +1284,9 @@ li {
   .menuItem:hover .menuItem__confirmation {
     margin-right: -1rem;
 }
+.menuItem:hover .menuItem__wrapIcon {
+  transform: rotate(0);
+}
   .menuItem__wrapIcon {
     height: 1.6rem;
     width: 1.6rem;
@@ -1289,7 +1295,7 @@ li {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    transform: rotate(0deg);
+    transform: rotate(180deg);
     transition-duration: .5s;
   }
   .menuItem__icon {
@@ -1533,6 +1539,9 @@ li {
   .menuItem:hover .menuItem__confirmation {
     margin-right: -1rem;
 }
+.menuItem:hover .menuItem__wrapIcon {
+  transform: rotate(0);
+}
   .menuItem__wrapIcon {
     height: 1.6rem;
     width: 1.6rem;
@@ -1541,7 +1550,7 @@ li {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    transform: rotate(0deg);
+    transform: rotate(180deg);
     transition-duration: .5s;
   }
   .menuItem__icon {
