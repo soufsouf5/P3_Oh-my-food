@@ -512,6 +512,14 @@ li.footer__listElt {
     transform: scale(1);
   }
 }
+@keyframes itemRotate {
+  0% {
+    transform: rotate(137deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
 .delay-0 {
   animation-delay: 0s;
 }
