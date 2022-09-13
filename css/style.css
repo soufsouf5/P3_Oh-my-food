@@ -1354,7 +1354,7 @@ li {
     background-color: #f6f6f6;
     z-index: 1;
     position: relative;
-    width: 1615px;
+    width: 100%;
     max-width: inherit;
   }
   .menu__title {
@@ -1575,7 +1575,8 @@ li {
   }
 }
 
-/* Version pc portable */
+/* Version pc portable
+
 @media screen and (min-width:992px) {
   .header--backArrow {
     position: relative;
@@ -1833,4 +1834,4 @@ li {
     padding: 2%;
     font-size: 16px;
   }
-}
+} */
