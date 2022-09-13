@@ -448,6 +448,21 @@ li.footer__listElt {
   left: 0;
   bottom: 0;
 }
+.menuItem {
+  background-color: #fff;
+  padding: 5% 2%;
+  display: flex;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
+  overflow: hidden;
+  cursor: pointer;
+  animation: itemAppear .6s;
+  animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+  animation-fill-mode: both;
+  transform: scale(0);
+  max-width: 100%;
+}
 @keyframes itemAppear {
   0% {
     transform: scale(0);
@@ -501,21 +516,6 @@ li.footer__listElt {
   max-width: 100%;
   overflow: hidden;
   padding: 0 1rem;
-}
-.menuItem {
-  background-color: #fff;
-  padding: 5% 2%;
-  display: flex;
-  border-radius: 0.75rem;
-  margin: 1rem 0;
-  box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
-  overflow: hidden;
-  cursor: pointer;
-  animation: itemAppear .6s;
-  animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-  animation-fill-mode: both;
-  transform: scale(0);
-  max-width: 100%;
 }
 .menuItem__header, .menuItem__title {
   white-space: nowrap;
