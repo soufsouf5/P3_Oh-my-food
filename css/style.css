@@ -1184,21 +1184,6 @@ li {
     padding-bottom: 0.5rem;
     font-weight: 400;
   }
-  .menuItem {
-    background-color: #fff;
-    padding: 5% 2%;
-    display: flex;
-    border-radius: 0.75rem;
-    margin: 1rem 0;
-    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
-    overflow: hidden;
-    cursor: pointer;
-    animation: itemAppear .6s;
-    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-    animation-fill-mode: both;
-    transform: scale(0);
-    max-width: 100%;
-  }
   .menuItem__header, .menuItem__title {
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1438,21 +1423,6 @@ li {
     position: relative;
     padding-bottom: 0.5rem;
     font-weight: 400;
-  }
-  .menuItem {
-    background-color: #fff;
-    padding: 5% 3%;
-    display: flex;
-    border-radius: 0.75rem;
-    margin: 1rem 0;
-    box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
-    overflow: hidden;
-    cursor: pointer;
-    animation: itemAppear .6s;
-    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-    animation-fill-mode: both;
-    transform: scale(0);
-    max-width: 100%;
   }
   .menuItem__header, .menuItem__title {
     white-space: nowrap;
