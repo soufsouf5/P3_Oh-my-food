@@ -1634,7 +1634,7 @@ li {
     position: relative;
   }
   .second__list {
-    padding: 5% 0;
+    padding: 2% 0;
     margin: 1rem 0 1rem 0.75rem;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
     border-radius: 1.25rem;
@@ -1646,7 +1646,7 @@ li {
   }
   .second__lists {
     margin: 0;
-    padding: 0% 15%;
+    padding: 0%;
     list-style: none;
     counter-reset: compteListe;
   }
